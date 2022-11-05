@@ -1,0 +1,112 @@
+.mainContainerButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 180px;
+}
+
+.headerTitle {
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px rgb(182, 182, 182) solid;
+    background-color: rgb(248, 248, 248);
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-bottom: 8px;
+}
+
+.headerTitle p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.headerTitle span {
+    color: red;
+}
+
+.headerTitle img {
+    height: 50px;
+    padding: 7px;
+}
+
+.area {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 7, 7);
+
+}
+
+.buttons {
+    height: 95px;
+    width: 250px;
+    background-color: rgb(7, 7, 7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+button {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    width: 70px;
+    height: 45px;
+    background-color: #000;
+    color: #fff;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.zero {
+    margin-left: 85px;
+}
+
+.sbuttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bbranco {
+    width: 60px;
+    height: 40px;
+    margin-top: 15px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+.bcorrige {
+    width: 60px;
+    height: 40px;
+    margin-top: 15px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 0, 0);
+    color: #000;
+}
+
+.bconfirm {
+    width: 85px;
+    height: 55px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 18px;
+    background-color: rgba(30, 255, 0, 0.479);
+    color: #000;
+    cursor: pointer;
+}
